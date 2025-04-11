@@ -104,6 +104,8 @@
                     <b> О себе </b>
                 </h2>
 
+                <br>
+
                 <div class="About-me">
                     Я Макаров Вячеслав. Студент, обучающийся в Московском Технического Университете
                     Связи и Информатики на 1 курсе программной инженерии. Увлекаюсь видеоиграми, художественной
@@ -118,6 +120,8 @@
                 <h2>
                     <b> Проекты </b>
                 </h2>
+
+                <br>
 
                 <div class="Projects">
                     Из проектов разрабатывал приложение по парсингу и фильтрации данных о вакансиях с сайта
@@ -135,6 +139,8 @@
                     <b> Навыки </b>
                 </h2>
 
+                <br>
+
                 <div class="Skills">
                     Умею работать в команде и проявлять инициативу для достижения общей цели. Пунктуален и ответственно
                     подхожу к работе.
@@ -142,11 +148,99 @@
             </div>
         </div>
 
-        <div class="image" style="width: 50%; min-height: 100vh;">
-            <div class="image-container">
-                <img src="./assets/Collage_of_Python_programming_aspects_syntax_libraries_Python_symbols.jpg" alt="">
+        <style>
+            .About-me-container {
+                width: 90%;
+                margin: 10px 10px 40px 40px;
+                color: #ffffff;
+                font-size: 230%;
+                background-color: #000000;
+                padding: 20px;
+                box-shadow: #ffffff 10px 10px 0px;
+            }
+
+            .About-me {
+                text-align: left;
+                padding: 0px 0px 0px 0px;
+            }
+
+            .Projects-container {
+                width: 90%;
+                margin: 10px 10px 40px 40px;
+                color: #ffffff;
+                font-size: 230%;
+                background-color: #000000;
+                padding: 20px;
+                box-shadow: #ffffff 10px 10px 0px;
+            }
+
+            .Projects {
+                text-align: left;
+                padding: 0px 0px 0px 0px;
+            }
+
+            .Skills-container {
+                width: 90%;
+                margin: 10px 10px 40px 40px;
+                color: #ffffff;
+                font-size: 230%;
+                background-color: #000000;
+                padding: 20px;
+                box-shadow: #ffffff 10px 10px 0px;
+            }
+
+            .Skills {
+                text-align: left;
+                padding: 0px 0px 0px 0px;
+            }
+        </style>
+
+        <div class="container">
+            <div class="list">
+                <div class="item"><img src="img/1.jpg" alt="Alt"></div>
+                <div class="item"><img src="img/2.webp" alt="Alt"></div>
+                <div class="item"><img src="img/3.gif" alt="Alt"></div>
+                <div class="item"><img src="img/4.gif" alt="Alt"></div>
+                <div class="item"><img src="img/5.gif" alt="Alt"></div>
+                <div class="item"><img src="img/6.jpg" alt="Alt"></div>
+                <div class="item"><img src="img/7.gif" alt="Alt"></div>
+                <div class="item"><img src="img/8.jpg" alt="Alt"></div>
+                <div class="item"><img src="img/9.gif" alt="Alt"></div>
+                <div class="item"><img src="img/10.jpg" alt="Alt"></div>
+                <div class="item"><img src="img/11.jpg" alt="Alt"></div>
             </div>
         </div>
+
+        <style>
+            .container {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            :root {
+                --gap: 1rem;
+            }
+
+            .container {
+                width: 50%;
+            }
+
+            .list {
+                columns: 300px;
+                column-gap: var(--gap);
+                padding: calc(var(--gap) / 1.25);
+            }
+
+            .item {
+                margin-bottom: var(--gap);
+            }
+
+            .item img {
+                width: 100%;
+                display: block;
+            }
+        </style>
     </main>
 
     <style>
@@ -154,43 +248,8 @@
             display: flex;
         }
 
-        .About-me-container {
-            width: 90%;
-            margin: 10px 10px 10px 10px;
-            color: #ffffff;
-        }
-
-        .About-me {
-            text-align: left;
-            padding: 0px 0px 0px 10px;
-        }
-
-        .Projects-container {
-            width: 90%;
-            margin: 10px 10px 10px 10px;
-            color: #ffffff;
-        }
-
-        .Projects {
-            text-align: left;
-            padding: 0px 0px 0px 10px;
-        }
-
-        .Skills-container {
-            width: 90%;
-            margin: 10px 10px 10px 10px;
-            color: #ffffff;
-        }
-
-        .Skills {
-            text-align: left;
-            padding: 0px 0px 0px 10px;
-        }
-
-        .image {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
+        .main-container h2 {
+            margin: 0px 0px 0px 0px;
         }
     </style>
 
